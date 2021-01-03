@@ -1,0 +1,108 @@
+.container {
+  max-width: 960px;
+  
+}
+
+.principal-page {
+  background-image: url('../assets/Fundo6.jpg');
+  background-size: 320px; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+  text-decoration: none;
+  
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: underline;
+  
+}
+
+.iniciante {
+  background-image: url('https://helpx.adobe.com/content/dam/help/pt/photoshop/using/color-modes/_jcr_content/main-pars/image/color-mode_1046x620.jpg');
+  background-size: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profissional {
+  background-image: url('https://lh3.googleusercontent.com/proxy/520YGvtOXjmJ_4PxZXBub1ghOH_HtIMvCKvGPrsnn1zWDZZzfPdYCkz3rRcnCV9EIam5gVykjZh_gzTdjKQD0WHxhxb6C5msWtAhe1eKu4VUi_GVYcNrEQK_Z-1oWk6kxpC_6YFS8dASagkt');
+  background-size: 573px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.diferença {
+  background-image: url('https://lh3.googleusercontent.com/proxy/SQTa8VQOq_IRsY42QETej4jn7YgMlHEE2cXloYCXZOwBBJ-WXOpBhONVXfKIzwIFZxSYQPGeMF-MoOKoiKNBRPGOONPhbbYjk_NZxb5LtjqF7ykE5Le-DA');
+  background-size: 698px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.elite {
+  background-image: url('https://i.ytimg.com/vi/RuOHXppAHaY/maxresdefault.jpg');
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
